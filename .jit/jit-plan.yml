@@ -33,9 +33,4 @@ items:
   - name: SUP-002. Have premium level support agreements with vendors/partners
     uses: >-
       jitsecurity-controls/jit-plans/items/support_level/item-support-premium-aggrement.yml@latest
-  - name: >
-      SUP-001. Enable AWS Business Support (or greater) on all production AWS
-      accounts
-    uses: >-
-      jitsecurity-controls/jit-plans/items/support_level/item-support-business.yml@latest
 
