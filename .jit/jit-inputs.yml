@@ -6,3 +6,6 @@ item-partner-hosting-model:
 item-support-business:
   comment: ''
   status: n/a
+item-support-premium-aggrement:
+  comment: abcd
+  status: n/a
