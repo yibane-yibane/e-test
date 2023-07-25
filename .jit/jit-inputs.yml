@@ -1,7 +1,7 @@
 item-arch-review:
   status: passed
 item-partner-hosting-model:
-  comment: shuki
-  status: passed
+  comment: ''
+  status: failed
 item-support-business:
   status: passed
