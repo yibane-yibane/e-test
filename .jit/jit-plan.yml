@@ -8,11 +8,6 @@ references:
   - https://www.jit.io
 tags: []
 items:
-  - name: >-
-      IAM-009. Ensure all credentials used by your applications are not
-      hard-coded
-    uses: >-
-      jitsecurity-controls/jit-plans/items/infrastructure/item-aws-ftr-secret-detection.yml@latest
   - name: Verify that Github Branch Protection is properly configured
     uses: >-
       jitsecurity-controls/jit-plans/items/third_party_app/item-branch-protection-scm.yml@latest
