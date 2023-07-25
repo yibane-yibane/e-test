@@ -16,6 +16,9 @@ items:
   - name: Verify that Github Branch Protection is properly configured
     uses: >-
       jitsecurity-controls/jit-plans/items/third_party_app/item-branch-protection-scm.yml@latest
+  - name: Scan your code for vulnerabilities (SAST)
+    uses: >-
+      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
   - name: Scan your code dependencies for vulnerabilities (SCA)
     uses: jitsecurity-controls/jit-plans/items/code/item-dependency-check.yml@latest
   - name: Scan your infrastructure-as-code (IaC) for misconfigurations
@@ -30,7 +33,9 @@ items:
   - name: Scan infrastructure for runtime misconfigurations (Azure)
     uses: >-
       jitsecurity-controls/jit-plans/items/infrastructure/item-runtime-misconfiguration-detection-azure.yml@latest
-  - name: Scan your code for vulnerabilities (SAST)
+  - name: >
+      SUP-001. Enable AWS Business Support (or greater) on all production AWS
+      accounts
     uses: >-
-      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
+      jitsecurity-controls/jit-plans/items/support_level/item-support-business.yml@latest
 
