@@ -14,6 +14,8 @@ items:
   - name: Scan your code for vulnerabilities (SAST)
     uses: >-
       jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
+  - name: Scan your code dependencies for vulnerabilities (SCA)
+    uses: jitsecurity-controls/jit-plans/items/code/item-dependency-check.yml@latest
   - name: Scan your infrastructure-as-code (IaC) for misconfigurations
     uses: >-
       jitsecurity-controls/jit-plans/items/infrastructure/item-iac-misconfiguration-detection.yml@latest
@@ -25,6 +27,8 @@ items:
       jitsecurity-controls/jit-plans/items/infrastructure/item-runtime-misconfiguration-detection-azure.yml@latest
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
-  - name: Scan your code dependencies for vulnerabilities (SCA)
-    uses: jitsecurity-controls/jit-plans/items/code/item-dependency-check.yml@latest
+  - name: |
+      HOST-001. Confirm your hosting model
+    uses: >-
+      jitsecurity-controls/jit-plans/items/partner_hosted/item-partner-hosting-model.yml@latest
 
