@@ -2,7 +2,7 @@ item-arch-review:
   status: passed
 item-partner-hosting-model:
   comment: ''
-  status: n/a
+  status: failed
 item-support-business:
   comment: ''
   status: passed
