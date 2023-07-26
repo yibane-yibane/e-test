@@ -35,8 +35,9 @@ items:
       accounts
     uses: >-
       jitsecurity-controls/jit-plans/items/support_level/item-support-business.yml@latest
-  - name: |
-      IAM-012. Use temporary credentials
+  - name: >
+      IAM-009. Ensure all credentials used by your applications are not
+      hard-coded
     uses: >-
-      jitsecurity-controls/jit-plans/items/identity_and_access_management/item-iam-temp-creds.yml@latest
+      jitsecurity-controls/jit-plans/items/identity_and_access_management/item-aws-ftr-secret-detection.yml@latest
 
