@@ -1,3 +1,5 @@
+item-cross-account-deprecate-historical-creds:
+  status: failed
 item-iam-temp-creds:
   status: n/a
 item-support-business:
