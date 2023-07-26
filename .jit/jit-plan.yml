@@ -35,8 +35,4 @@ items:
       hard-coded
     uses: >-
       jitsecurity-controls/jit-plans/items/identity_and_access_management/item-aws-ftr-secret-detection.yml@latest
-  - name: |
-      IAM-012. Use temporary credentials
-    uses: >-
-      jitsecurity-controls/jit-plans/items/identity_and_access_management/item-iam-temp-creds.yml@latest
 
