@@ -14,11 +14,6 @@ items:
   - name: Scan your code for vulnerabilities (SAST)
     uses: >-
       jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
-  - name: >-
-      CAA-003. Deprecate any historical use of customer-provided IAM
-      credentials.
-    uses: >-
-      jitsecurity-controls/jit-plans/items/cross_account_access/item-cross-account-deprecate-historical-creds.yml@latest
   - name: Scan your code dependencies for vulnerabilities (SCA)
     uses: jitsecurity-controls/jit-plans/items/code/item-dependency-check.yml@latest
   - name: Scan your infrastructure-as-code (IaC) for misconfigurations
@@ -43,4 +38,9 @@ items:
       accounts
     uses: >-
       jitsecurity-controls/jit-plans/items/support_level/item-support-business.yml@latest
+  - name: >
+      CAA-003. Deprecate any historical use of customer-provided IAM
+      credentials.
+    uses: >-
+      jitsecurity-controls/jit-plans/items/cross_account_access/item-cross-account-deprecate-historical-creds.yml@latest
 
