@@ -1,8 +1,3 @@
-item-cross-account-deprecate-historical-creds:
-  status: failed
 item-iam-temp-creds:
   note: aaa
-  status: n/a
-item-support-business:
-  note: Lital
   status: n/a
