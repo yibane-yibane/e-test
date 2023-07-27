@@ -4,3 +4,6 @@ item-iam-temp-creds:
 item-partner-hosting-model:
   note: ccc
   status: n/a
+item-support-business:
+  note: hadar
+  status: passed
