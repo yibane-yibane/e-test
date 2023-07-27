@@ -35,7 +35,7 @@ items:
       jitsecurity-controls/jit-plans/items/infrastructure/item-runtime-misconfiguration-detection-azure.yml@latest
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
-  - name: >
+  - name: >-
       SUP-001. Enable AWS Business Support (or greater) on all production AWS
       accounts
     uses: >-
