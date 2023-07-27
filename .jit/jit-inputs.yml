@@ -1,3 +1,6 @@
 item-iam-temp-creds:
   note: dsadsads
   status: failed
+item-partner-hosting-model:
+  note: aaa
+  status: n/a
