@@ -2,5 +2,5 @@ item-iam-temp-creds:
   note: dsadsads
   status: failed
 item-partner-hosting-model:
-  note: bbb
-  status: failed
+  note: ccc
+  status: n/a
