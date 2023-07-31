@@ -16,6 +16,9 @@ items:
   - name: Verify that Github Branch Protection is properly configured
     uses: >-
       jitsecurity-controls/jit-plans/items/third_party_app/item-branch-protection-scm.yml@latest
+  - name: Scan your code for vulnerabilities (SAST)
+    uses: >-
+      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
   - name: Scan your code dependencies for vulnerabilities (SCA)
     uses: jitsecurity-controls/jit-plans/items/code/item-dependency-check.yml@latest
   - name: Scan your infrastructure-as-code (IaC) for misconfigurations
@@ -37,7 +40,8 @@ items:
       accounts
     uses: >-
       jitsecurity-controls/jit-plans/items/support_level/item-support-business.yml@latest
-  - name: Scan your code for vulnerabilities (SAST)
+  - name: |
+      WAFR-001. Conduct periodic architecture reviews (minimum once every year)
     uses: >-
-      jitsecurity-controls/jit-plans/items/code/item-code-vulnerability.yml@latest
+      jitsecurity-controls/jit-plans/items/architecture_review/item-arch-review.yml@latest
 
