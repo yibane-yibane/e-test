@@ -1,3 +1,6 @@
+item-arch-review:
+  note: muki
+  status: passed
 item-partner-hosting-model:
   note: rfwefe
   status: failed
