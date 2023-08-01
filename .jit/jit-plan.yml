@@ -8,6 +8,9 @@ references:
   - https://www.jit.io
 tags: []
 items:
+  - name: WAFR-001. Conduct periodic architecture reviews (minimum once every year)
+    uses: >-
+      jitsecurity-controls/jit-plans/items/architecture_review/item-arch-review.yml@latest
   - name: >-
       IAM-009. Ensure all credentials used by your applications are not
       hard-coded
@@ -35,13 +38,4 @@ items:
       jitsecurity-controls/jit-plans/items/infrastructure/item-runtime-misconfiguration-detection-azure.yml@latest
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
-  - name: >
-      SUP-001. Enable AWS Business Support (or greater) on all production AWS
-      accounts
-    uses: >-
-      jitsecurity-controls/jit-plans/items/support_level/item-support-business.yml@latest
-  - name: |
-      WAFR-001. Conduct periodic architecture reviews (minimum once every year)
-    uses: >-
-      jitsecurity-controls/jit-plans/items/architecture_review/item-arch-review.yml@latest
 
